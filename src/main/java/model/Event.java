@@ -3,8 +3,6 @@ package model;
 import lombok.Getter;
 import lombok.Setter;
 import java.text.DateFormat;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -21,7 +19,7 @@ public class Event {
 
     private DateFormat dateFormat;
 
-    private Event() {
+    public Event() {
         this.id = AUTO_ID.getAndIncrement();
     }
 
@@ -33,6 +31,7 @@ public class Event {
 
     @Override
     public String toString() {
-        return id + " " + msg + " " + dateFormat.format(date);
+        return String.format("Event: id = %s, message = %s, date = %s\n",
+                id, msg, dateFormat.format(date));
     }
 }

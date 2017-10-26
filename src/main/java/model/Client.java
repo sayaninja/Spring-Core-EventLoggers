@@ -8,4 +8,5 @@ import lombok.Data;
 public class Client {
     String id;
     String fullName;
+    String greeting;
 }

@@ -5,15 +5,14 @@
  		http://www.springframework.org/schema/beans
  		http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
 
-    <bean id="consoleEventLogger" class="logger.ConsoleEventLogger"/>
-    <bean id="fileEventLogger" class="logger.FileEventLogger">
+    <bean id="fileEventLogger" class="com.spring.core.logger.FileEventLogger">
         <property name="filename" value="events_log.txt"/>
     </bean>
-    <bean id="cacheFileEventLogger" parent="fileEventLogger" class="logger.CacheFileEventLogger"
+    <bean id="cacheFileEventLogger" parent="fileEventLogger" class="com.spring.core.logger.CacheFileEventLogger"
           init-method="initCache" destroy-method="destroy">
         <property name="cacheSize" value="5"/>
     </bean>
-    <bean id="combinedEventLogger" class="logger.CombinedEventLogger">
+    <bean id="combinedEventLogger" class="com.spring.core.logger.CombinedEventLogger">
         <constructor-arg>
             <list>
                 <ref bean="consoleEventLogger"/>

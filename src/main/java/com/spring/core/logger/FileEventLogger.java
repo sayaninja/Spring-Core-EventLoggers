@@ -1,7 +1,7 @@
-package logger;
+package com.spring.core.logger;
 
 import lombok.NoArgsConstructor;
-import model.Event;
+import com.spring.core.model.Event;
 import org.apache.commons.io.FileUtils;
 import java.io.File;
 import java.io.IOException;

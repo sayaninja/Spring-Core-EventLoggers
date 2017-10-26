@@ -1,7 +1,7 @@
-package logger;
+package com.spring.core.logger;
 
 import lombok.NoArgsConstructor;
-import model.Event;
+import com.spring.core.model.Event;
 import java.util.ArrayList;
 import java.util.List;
 

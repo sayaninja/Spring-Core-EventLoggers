@@ -1,9 +1,9 @@
-import logger.EventLogger;
-import logger.FileEventLogger;
+import com.spring.core.logger.EventLogger;
+import com.spring.core.logger.FileEventLogger;
 import lombok.AllArgsConstructor;
-import model.Client;
-import model.Event;
-import model.EventType;
+import com.spring.core.model.Client;
+import com.spring.core.model.Event;
+import com.spring.core.model.EventType;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import java.util.Map;

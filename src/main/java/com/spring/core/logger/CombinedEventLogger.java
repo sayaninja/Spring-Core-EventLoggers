@@ -1,8 +1,7 @@
-package logger;
+package com.spring.core.logger;
 
-import model.Event;
+import com.spring.core.model.Event;
 import java.util.Collection;
-import java.util.List;
 
 public class CombinedEventLogger implements EventLogger {
 

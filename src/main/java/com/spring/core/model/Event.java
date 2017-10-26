@@ -1,11 +1,16 @@
-package model;
+package com.spring.core.model;
 
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 import java.text.DateFormat;
 import java.util.Date;
 import java.util.concurrent.atomic.AtomicInteger;
 
+@Component
+@Scope("prototype")
 public class Event {
     private static final AtomicInteger AUTO_ID = new AtomicInteger(0);
 
@@ -15,8 +20,10 @@ public class Event {
     private String msg;
 
     @Setter @Getter
+    @Autowired
     private Date date;
 
+    @Autowired
     private DateFormat dateFormat;
 
     public Event() {

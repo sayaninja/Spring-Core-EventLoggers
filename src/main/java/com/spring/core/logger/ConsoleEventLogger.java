@@ -1,7 +1,9 @@
-package logger;
+package com.spring.core.logger;
 
-import model.Event;
+import com.spring.core.model.Event;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConsoleEventLogger implements EventLogger{
 
     @Override

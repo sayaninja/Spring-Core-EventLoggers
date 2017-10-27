@@ -1,11 +1,10 @@
 package com.spring.core.logger;
 
-import lombok.NoArgsConstructor;
 import com.spring.core.model.Event;
+import javax.annotation.PreDestroy;
 import java.util.ArrayList;
 import java.util.List;
 
-@NoArgsConstructor
 public class CacheFileEventLogger extends FileEventLogger {
 
     private int cacheSize;
@@ -14,15 +13,10 @@ public class CacheFileEventLogger extends FileEventLogger {
     public CacheFileEventLogger(String filename, int cacheSize){
         super(filename);
         this.cacheSize = cacheSize;
+        this.cache = new ArrayList<>(cacheSize);
     }
 
-    public void setCacheSize(int cacheSize) {
-        this.cacheSize = cacheSize;
-    }
-    public void initCache() {
-        this.cache = new ArrayList<Event>(cacheSize);
-    }
-
+    @Override
     public void logEvent(Event event) {
         cache.add(event);
         if (cache.size() == cacheSize) {
@@ -31,6 +25,7 @@ public class CacheFileEventLogger extends FileEventLogger {
         }
     }
 
+    @PreDestroy
     public void destroy() {
         if (cache.isEmpty() == false) {
             writeEventsToFile();

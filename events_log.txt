@@ -1,51 +1,9 @@
-Event: id = 0, message = Some message for Mike Wazowski, date = Oct 26, 2017, 2:27:22 PM
-Event: id = 1, message = Some message for 2, date = Oct 26, 2017, 2:27:22 PM
-Event: id = 2, message = Some message for 3, date = Oct 26, 2017, 2:27:22 PM
-Event: id = 0, message = Some message for 0, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 1, message = Some message for Mike Wazowski, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 2, message = Some message for 2, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 3, message = Some message for 3, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 4, message = Some message for 4, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 5, message = Some message for 5, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 6, message = Some message for 6, date = Oct 26, 2017, 2:53:26 PM
-Event: id = 0, message = Some message for 0, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 1, message = Some message for Mike Wazowski, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 2, message = Some message for 2, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 3, message = Some message for 3, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 4, message = Some message for 4, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 5, message = Some message for 5, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 6, message = Some message for 6, date = Oct 26, 2017, 2:57:03 PM
-Event: id = 0, message = Some message for 0, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 1, message = Some message for Mike Wazowski, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 2, message = Some message for 2, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 3, message = Some message for 3, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 4, message = Some message for 4, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 5, message = Some message for 5, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 6, message = Some message for 6, date = Oct 26, 2017, 3:23:45 PM
-Event: id = 0, message = Some message for 0, date = Oct 26, 2017, 3:29:59 PM
-Event: id = 1, message = Some message for Mike Wazowski, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 2, message = Some message for 2, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 3, message = Some message for 3, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 4, message = Some message for 4, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 5, message = Some message for 5, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 6, message = Some message for 6, date = Oct 26, 2017, 3:30:00 PM
-Event: id = 0, message = Some message for 0, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 1, message = Some message for Mike Wazowski, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 2, message = Some message for 2, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 3, message = Some message for 3, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 4, message = Some message for 4, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 5, message = Some message for 5, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 6, message = Some message for 6, date = Oct 26, 2017, 3:31:52 PM
-Event: id = 1, message = Some error message for 0, date = Oct 26, 2017, 3:38:10 PM
-Event: id = 3, message = Some error message for Mike Wazowski, date = Oct 26, 2017, 3:38:10 PM
-Event: id = 5, message = Some error message for 2, date = Oct 26, 2017, 3:38:10 PM
-Event: id = 1, message = Some error message for 0, date = Oct 26, 2017, 3:46:51 PM
-Event: id = 3, message = Some error message for Mike Wazowski, date = Oct 26, 2017, 3:46:51 PM
-Event: id = 5, message = Some error message for 2, date = Oct 26, 2017, 3:46:51 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 3:47:50 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 3:48:16 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 3:49:29 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 4:05:42 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 4:06:40 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 4:17:06 PM
-Event: id = 1, message = Some error message for 2, date = Oct 26, 2017, 4:18:53 PM
+Event: id = 0, message = Some info message for John Smith, date = Oct 27, 2017, 2:33:53 PM
+Event: id = 2, message = Some error message for 2, date = Oct 27, 2017, 2:33:53 PM
+Event: id = 4, message = Some error message for 2, date = Oct 27, 2017, 2:33:53 PM
+Event: id = 0, message = Some info message for John Smith, date = Oct 27, 2017, 2:36:08 PM
+Event: id = 2, message = Some error message for 2, date = Oct 27, 2017, 2:36:08 PM
+Event: id = 4, message = Some error message for 2, date = Oct 27, 2017, 2:36:08 PM
+Event: id = 0, message = Some info message for John Smith, date = Oct 27, 2017, 2:36:21 PM
+Event: id = 2, message = Some error message for 2, date = Oct 27, 2017, 2:36:21 PM
+Event: id = 4, message = Some error message for 2, date = Oct 27, 2017, 2:36:21 PM
